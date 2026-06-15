@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dashlab
-  version: "0.3.10"
+  version: "0.3.11"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dashlab-${{ version }}.tar.gz
-  sha256: 1a9b8d4d8558b460c1538dc79b55f7539d7d09f824edacb55346b57444731216
+  sha256: a37b1e34305479bf7fb7f4440404d13f95569f9b01ea979c34f9a2e9b033a85d
 
 build:
   number: 0
